@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="global.js"></script>
+    <script type="text/javascript" src="1480.js"></script>
+</head>
+
+<body>
+    <script>
+        for (let algo of Object.values(global)) {
+            algo()
+        }
+        //$('#result').append($("<li>").text("some text"))
+    </script>
+    <div>
+        <ul id='result'>
+        </ul>
+    </div>
+</body>
+
+</html>
