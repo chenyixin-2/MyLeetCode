@@ -1,7 +1,6 @@
 var global = {}
 
-function REGISTER_ALGO(f){
-    global[document.getElementsByTagName('script').src] = f
-
-    global[markets][]
+function REGISTER_ALGO(f) {
+    console.log("registering : ", f)
+    global["1"] = f
 }

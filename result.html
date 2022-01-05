@@ -8,10 +8,11 @@
 
 <body>
     <script>
-        for (let algo of Object.values(global)) {
+        for (const [name, algo] of Object.entries(global)) {
+            console.log(algorithm")
             algo()
         }
-        //$('#result').append($("<li>").text("some text"))
+        $('#result').append($("<li>").text("some text"))
     </script>
     <div>
         <ul id='result'>

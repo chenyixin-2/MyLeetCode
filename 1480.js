@@ -8,7 +8,8 @@ var runningSum = function (nums) {
 }
 
 function run() {
-    runningSum([1, 2, 3, 4])
+    console.log("1480")
+    console.log(runningSum([1, 2, 3, 4]))
 }
 
 REGISTER_ALGO(run)
